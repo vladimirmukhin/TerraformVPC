@@ -13,7 +13,7 @@ variable "cidr_subnet" {
 }
 variable "cidr_subnet1" {
   description = "CIDR block for the subnet1"
-  default     = "10.1.0.0/28"
+  default     = "10.1.1.0/24"
 }
 variable "availability_zone" {
   description = "availability zone to create subnet"
